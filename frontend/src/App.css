@@ -1,0 +1,163 @@
+html{
+  background-color: #d3f5ff;
+}
+
+.App {
+  //background-image: linear-gradient(#d3f5ff, #86fde8);
+  background-color: #d3f5ff;
+  font-family: Ubuntu;
+  font-size: 20px;
+}
+
+@media only screen and (max-width:990px) {
+  .App {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width:529px) {
+  .App {
+    font-size: 15px;
+  }
+}
+
+.App-logo {
+  width: 65px;
+  height: 65px;
+}
+
+
+@media only screen and (max-width:990px) {
+  .App-logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 2px;
+  }
+}
+
+@media only screen and (max-width:529px) {
+  .App-logo {
+    display: none;
+  }
+}
+
+
+.App-header {
+  height: 100px;
+  color: black;
+}
+
+@media only screen and (max-width:990px) {
+  .App-header {
+    height: 70px;
+  }
+}
+
+.red-header{
+  background-color: #e5393f;
+  height: 60px;
+  text-align: center;
+}
+
+@media only screen and (max-width:990px) {
+  .red-header {
+    height: 52px;
+  }
+}
+
+.white-banner{
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 8px;
+  padding: 7px 50px 7px 50px;
+  text-align: center;
+}
+
+.restOfPage{
+  height:100%;
+}
+
+.login-signup-buttons{
+  float: right;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width:990px) {
+  .login-signup-buttons {
+    font-size: 15px!important;
+    margin-top: 20px;
+    width:80px;
+    height: 35px;
+  }
+}
+
+.my-ask-button{
+  float: right;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width:990px) {
+  .my-ask-button {
+    font-size: 13px!important;
+    margin-top: 20px;
+    width:60px;
+    height: 35px;
+  }
+}
+
+.my-ask-text{}
+
+@media only screen and (max-width:990px) {
+  .my-ask-text {
+    display: none;
+  }
+}
+
+.ask-answer-buttons{
+  margin: 10px;
+}
+
+@media only screen and (max-width:990px) {
+  .ask-answer-buttons{
+    height: 32px;
+    font-size: 15px!important;
+  }
+}
+
+
+.questions {
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 10px;
+  margin: 20px;
+  width: auto;
+}
+
+.question-text{
+  display: inline-block;
+  background-color: lightgrey;
+  padding: 20px;
+  border-radius: 10px;
+  white-space: pre-wrap;
+}
+
+.question-author{
+  display: inline-block;
+  color: darkblue;
+  padding: 5px;
+  font-size: 15px;
+  margin: 0px;
+}
+
+
+.copyright{
+  border-top: 1px solid black;
+  padding: 10px;
+  padding-bottom: 30px;
+}
